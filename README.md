@@ -1,7 +1,18 @@
-# OpenGL Solar System by Gloria Dzida, Juan Pablo Stumpf and Andrea Portscher
-----------------------------------------------------------------------------
+# OpenGL Solar System by Gloria D., Juan Pablo Stumpf and Andrea Portscher
 
 ## Overview:
+
+This is a Computer Graphics project from the University of Innsbruck, where we simulated a solar system (or, in this case, a terrestrial system - just for fun ofc).
+
+## Getting started:
+
+In order to run the program, the OpenGL dependencies need to be installed by executing:
+`$ sudo apt-get update
+$ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev`
+
+The project can be compiled by simply executing `make` in the main folder, and run with `./solarsystem`.
+
+## Description and process
 
 You can navigate through the solar system with a pressed mouse button
 
@@ -29,7 +40,7 @@ Keyboard controls:
 Our program has several planets (including one with a ring and one with a moon), a rocket and a UFO orbiting around a sun in the center of the solar system.
 
 To make the code more readable, we decided to use a struct, where we can set all the necessary information on the objects, such as their names, names of their .obj-files, speed, distance to the sun, whether they are a moon etc.
-This makes it easier to generalize the transformation functions for all planets. The main logic is on the function updatePlanet, where all translations are calculated for each planet.
+This makes it easier to generalize the transformation functions for all planets. The main logic is in the function updatePlanet, where all translations are calculated for each planet.
 
 All planets have an elliptical orbit, which is calculated using a semimajor and a semiminor axis. One planet (pluto) has an inclined orbit.
 The earth has a moon which orbits around it.
