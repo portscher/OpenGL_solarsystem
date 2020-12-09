@@ -8,9 +8,9 @@ This is a Computer Graphics project from the University of Innsbruck, where we s
 
 In order to run the program, the OpenGL dependencies need to be installed by executing:
 
-`$ sudo apt-get update
+`$ sudo apt-get update`
 
-$ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev`
+`$ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev`
 
 The project can be compiled by simply executing `make` in the main folder, and run with `./solarsystem`.
 
