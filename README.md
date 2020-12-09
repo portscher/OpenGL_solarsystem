@@ -4,6 +4,10 @@
 
 This is a Computer Graphics project from the University of Innsbruck, where we simulated a solar system (or, in this case, a terrestrial system - just for fun ofc). Some basic functionalities have been provided by the Interactive Graphics and Simulation Group of the University of Innsbruck, an are marked as such. 
 
+![Image 0](https://raw.githubusercontent.com/portscher/OpenGL_solarsystem/master/img/img0.png)
+![Image 1](https://raw.githubusercontent.com/portscher/OpenGL_solarsystem/master/img/img1.png)
+![Image 2](https://raw.githubusercontent.com/portscher/OpenGL_solarsystem/master/img/img2.png)
+
 ## Getting started:
 
 In order to run the program, the OpenGL dependencies need to be installed by executing:
