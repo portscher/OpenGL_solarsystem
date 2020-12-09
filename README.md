@@ -2,7 +2,7 @@
 
 ## Overview:
 
-This is a Computer Graphics project from the University of Innsbruck, where we simulated a solar system (or, in this case, a terrestrial system - just for fun ofc).
+This is a Computer Graphics project from the University of Innsbruck, where we simulated a solar system (or, in this case, a terrestrial system - just for fun ofc). Some basic functionalities have been provided by the Interactive Graphics and Simulation Group of the University of Innsbruck, an are marked as such. 
 
 ## Getting started:
 
